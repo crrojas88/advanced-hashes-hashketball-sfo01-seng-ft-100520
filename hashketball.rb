@@ -205,7 +205,7 @@ end
  def big_shoe_rebounds
    game_hash.each do |team, team_attributes|
      team_attributes[:players].each do |key|
-       if key[:shoe] #> 18
+       if key[:shoe] > 18
           return key[:rebounds]
          end
       end
