@@ -208,8 +208,9 @@ end
      team_attributes[:players].each do |key|
        if :shoe > 18
           :rebounds
+          binding.pry
          end
-       binding.pry
+       
       end
    end
    test_var
