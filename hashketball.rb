@@ -203,17 +203,16 @@ end
  end
  
  def big_shoe_rebounds
-   test_var = 0
+   #test_var = 0
    game_hash.each do |team, team_attributes|
      team_attributes[:players].each do |key|
        if key[:shoe] > 18
           return key[:rebounds]
-          binding.pry
          end
        
       end
    end
-   test_var
+   #test_var
  end
  
  
