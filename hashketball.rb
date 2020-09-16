@@ -207,7 +207,7 @@ end
    game_hash.each do |team, team_attributes|
      team_attributes[:players].each do |key|
        if :shoe > 18
-          :rebounds
+          
           binding.pry
          end
        
