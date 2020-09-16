@@ -168,7 +168,6 @@ end
  
  
  def team_names
-   
    game_hash.collect do |team, team_attributes|
      team_attributes[:team_name]
     end
